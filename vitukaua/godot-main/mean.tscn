@@ -1,0 +1,32 @@
+[gd_scene load_steps=3 format=3 uid="uid://b1swsdlm7rs45"]
+
+[ext_resource type="PackedScene" uid="uid://cj17xjx8w585n" path="res://player.tscn" id="1_tlc32"]
+[ext_resource type="PackedScene" uid="uid://dkgtsuh5lx7nd" path="res://aula3vitukaua.tscn" id="2_dnkfk"]
+
+[node name="mean" type="Node2D"]
+
+[node name="player" parent="." instance=ExtResource("1_tlc32")]
+position = Vector2(321, 214)
+
+[node name="enemy" parent="." instance=ExtResource("2_dnkfk")]
+position = Vector2(168, 150)
+
+[node name="enemy2" parent="." instance=ExtResource("2_dnkfk")]
+position = Vector2(396, 73)
+
+[node name="enemy3" parent="." instance=ExtResource("2_dnkfk")]
+position = Vector2(474, 243)
+
+[node name="enemy4" parent="." instance=ExtResource("2_dnkfk")]
+position = Vector2(168, 407)
+
+[node name="enemy5" parent="." instance=ExtResource("2_dnkfk")]
+position = Vector2(426, 422)
+
+[node name="enemy6" parent="." instance=ExtResource("2_dnkfk")]
+position = Vector2(733, 233)
+rotation = 0.971053
+
+[node name="enemy7" parent="." instance=ExtResource("2_dnkfk")]
+position = Vector2(641, 370)
+rotation = 0.971053
